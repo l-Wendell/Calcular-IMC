@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,400&display=swap');
+
+body{
+    background: #3b3c40;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #f2e3b6;
+    text-align: center;
+}
+
+#butao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#butaozin{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    background: #bf613f;
+    color: #f2e3b6;
+    height: 60px;
+    width: 120px;
+    transition: 0.3s;
+}
+
+#butaozin:hover{
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+form{
+    margin-top: 25px;
+    color: #f2e3b6;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    font-size: 1rem;
+    background: none;
+    color: #f2e3b6;
+    border: none;
+    border-bottom: 1px solid #f2e3b6;
+    margin: 1.6rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+img{
+    transition: .5s;
+}
+
+#imagem img:hover{
+    box-shadow: 5px 16px 29px rgba(0, 0, 0, 0.5);
+}
+
+#sociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+#sociais img{
+    width: 25px;
+    height: 25px;
+}
+
+.redes{
+    background-color: #f2e3b6;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: .8s;
+}
+
+.redes:hover{
+    box-shadow: 0px 1px 25px 2px rgba(242, 227, 182, 0.35);
+}
